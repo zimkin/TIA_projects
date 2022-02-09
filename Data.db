@@ -4,14 +4,6 @@
  S7_Optimized_Access := 'TRUE' }
 VERSION : 0.1
 NON_RETAIN
-   VAR 
-      vstup1 { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : Bool;
-      vstup2 { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : Bool;
-      vystup { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : Bool;
-      "UDT" { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'; S7_SetPoint := 'False'} : "User_data_type_1";
-      vystup2 { ExternalAccessible := 'False'; ExternalVisible := 'False'; ExternalWritable := 'False'} : Bool;
-   END_VAR
-
 
 BEGIN
 
